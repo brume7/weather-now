@@ -32,14 +32,14 @@ export default {
   methods: {
     async firstApiCall(typeOfParam) {
       this.paramType = typeOfParam;
-       let url = `https://api.openweathermap.org/data/2.5/weather?lat=${this.latitude}&lon=${this.longitude}&appid=${process.env.VUE_APP_API}`;
+       let url = `https://api.openweathermap.org/data/2.5/weather?lat=${this.latitude}&lon=${this.longitude}&appid=b3d233c09be1dd283fac50c81f1249cd`;
        let req = new XMLHttpRequest;
        req.open("GET", url, true);
        req.send();
        req.onload = () =>{
          this.weatherData = JSON.parse(req.responseText);
        }
-       let url2 = `https://api.openweathermap.org/data/2.5/forecast?lat=${this.latitude}&lon=${this.longitude}&appid=${process.env.VUE_APP_API}`;
+       let url2 = `https://api.openweathermap.org/data/2.5/forecast?lat=${this.latitude}&lon=${this.longitude}&appid=b3d233c09be1dd283fac50c81f1249cd`;
        let req2 = new XMLHttpRequest;
        req2.open("GET", url2, true);
        req2.send();
@@ -56,14 +56,14 @@ export default {
     },
     async apiCall(value) {
       this.paramType = 'country';
-       let url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&appid=${process.env.VUE_APP_API}`;
+       let url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&appid=b3d233c09be1dd283fac50c81f1249cd`;
        let req = new XMLHttpRequest;
        req.open("GET", url, true);
        req.send();
        req.onload = () =>{
          this.weatherData = JSON.parse(req.responseText);
        }
-       let url2 = `https://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=${process.env.VUE_APP_API}`;
+       let url2 = `https://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=b3d233c09be1dd283fac50c81f1249cd`;
        let req2 = new XMLHttpRequest;
        req2.open("GET", url2, true);
        req2.send();
