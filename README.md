@@ -17,6 +17,7 @@ This website that provides relevant updates on the weather conditions around the
 * HTML
 * CSS
 * JavaScript
+* Vue
 
 
 ## Screenshots
