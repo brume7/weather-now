@@ -26,7 +26,7 @@ This website that provides relevant updates on the weather conditions around the
 
 
 ## Website
-https://weather-now-ap.herokuapp.com/
+https://dynamic-peony-56f21d.netlify.app
 
 ## Contribution
 Made with ❤️ by Brumizzy
