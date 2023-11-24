@@ -26,7 +26,7 @@ This website that provides relevant updates on the weather conditions around the
 
 
 ## Website
-https://dynamic-peony-56f21d.netlify.app
+<a href='http://brume-vue-app.s3-website.eu-west-2.amazonaws.com/'>Visit Web Application</a>
 
 ## Contribution
 Made with ❤️ by Brumizz
